@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+header {
+	background: lightgray;
+}
+body {
+	background: #50c878;
+}
+iframe {
+	font-family: 'open sans', sans-serif;
+}
+
+/* styles pour les liens de la zone de navigation */
+nav a{
+	  text-decoration: none;
+	  color: black;
+	  text-align: center;
+}
+/* styles pour les liens de pieds de page */
+nav a:hover {
+	   color: magenta;
+}
+
+footer a {
+	  text-decoration: none;
+	  color: gainsboro;
+}
+
+footer a:hover {
+		color: white;
+}
+nav {
+	background: lightgray; 
+	float: left;
+	text-align: left;
+}
+ul {
+list-style: none; padding: 30px;
+}
+aside {
+float: right; color: magenta; font-size: 1.2em; width: 150px; border: solid;
+}
+footer {
+clear: both; padding-top: 2em; background: dimgray; color: white;
+}
+footer div {
+	float: right;
+}
+div {
+float: right;
+}
+tableau {
+	border-collapse: collapse;
+	min-width: 400px;
+	width: auto;
+	margin: 100px auto;
+	border: 2px solid green;
+}
+thead tr {
+	background-color: green;
+	text-align: center;
+}
+th, td {
+	padding: 10px 25px;
+}
+tbody tr, td, th {
+	border: 1px solid black;
+}
+tbody tr:nth-child(even) {
+	background-color: green;
+	color: black;
+}
+
+table,
+td {
+    border: 1px solid black;
+     background-color: green;
+     color: black;
+}
+
+thead,
+tfoot {
+    background-color: green;
+    color: black;
+}
+
